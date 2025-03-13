@@ -1,0 +1,54 @@
+*{
+    font-family: "Cairo", serif;
+}
+
+
+.hero-section {
+    position: relative;
+    background: url('../images/hero-bg.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* تأثير التظليل */
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}
+.continer{
+    padding: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.continer h4 {
+    text-align: center;
+    padding: 50px;
+    opacity: 0.5;
+}
+.continer .titel h1{
+    text-align: center;
+}
+
+.continer .line {
+    width: 540px; /* طول الخط */
+    height: 2px; /* سمك الخط */
+    background-color:darkgray; /* اللون مع الشفافية */
+    margin-left:200px; /* المسافة بين الكلمة والخط */
+    opacity: 0.5;
+    
+}
+.card h5.card-title{
+    text-align: center;
+}
